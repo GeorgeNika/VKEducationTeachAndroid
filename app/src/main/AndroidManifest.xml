@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teachandroid.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".LoaderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AudioActivity"
+            android:label="@string/audios" />
+        <activity
+            android:name=".activity.GroupsActivity"
+            android:label="@string/title_activity_groups"></activity>
+        <activity
+            android:name=".activity.DialogActivity"
+            android:label="@string/title_activity_dialog"
+            android:theme="@style/AppBarTheme"></activity>
+        <activity
+            android:name=".activity.MessageActivity"
+            android:label="@string/title_activity_message"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".activity.FriendActivity"
+            android:label="@string/title_activity_friend"></activity>
+        <activity
+            android:name=".activity.CommentActivity"
+            android:label="@string/title_activity_comment"></activity>
+
+
+        <activity
+            android:name=".activity.PhotoActivity"
+            android:label="@string/title_activity_photo"></activity>
+        <activity
+            android:name=".activity.VideoActivity"
+            android:label="@string/title_activity_video"></activity>
+
+        <activity
+            android:name=".activity.UserActivity"
+            android:label="@string/title_activity_user"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".activity.AudioAlbumsActivity"
+            android:label="@string/audios" />
+
+        <service
+            android:name=".api.ApiFacadeService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".api.service.ApiService"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

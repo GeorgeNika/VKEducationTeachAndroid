@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Teach VK Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="friends">Friends</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="audios">Audios</string>
+    <string name="groups">Groups</string>
+    <string name="title_activity_friend">FriendActivity</string>
+    <string name="title_activity_groups">GroupsActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_photos">PhotosActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="relogin">reLogin</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="text_dialog_owner">dialog owner</string>
+    <string name="text_dialog_unread_message">unread message</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="text_message_owner">message owner</string>
+    <string name="text_dialog_title">Title</string>
+    <string name="text_message_body">Body</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="edit_send_message">send message</string>
+    <string name="button_send">send</string>
+    <string name="action_dialog_search">Search</string>
+    <string name="text_send_message">message</string>
+    <string name="text_dialog_body">Body</string>
+    <string name="text_send_message_to">"Send message to "</string>
+    <string name="comments_list_title">Comments</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="text_unknown">unknown</string>
+    <string name="content_description_avatar_image">Avatar image</string>
+    <string name="drawer_open">DRAWER_OPEN_MENU</string>
+    <string name="drawer_close">DRAWER_CLOSE_MENU</string>
+    <string name="add_photo">+photo</string>
+
+    <string-array name="add_photo_for_send">
+        <item>Add from gallery</item>
+        <item>Add from camera</item>
+        <item>Add from ...</item>
+    </string-array>
+
+</resources>

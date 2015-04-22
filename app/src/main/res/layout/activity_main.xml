@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0.0dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1">
+        <Button
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/photos"
+                android:id="@+id/button_photo"/>
+
+        <Button
+                android:id="@+id/button_video"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/videos"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0.0dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1">
+
+        <Button
+                android:id="@+id/button_friend"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/friends"/>
+
+        <Button
+                android:id="@+id/button_dialog"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/dialogs"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0.0dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1">
+        <Button
+                android:id="@+id/groups_button"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/groups"/>
+
+        <Button
+                android:id="@+id/button_audio"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/audios"/>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button_relogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relogin"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="friend" type="layout">@layout/activity_friend_two_pane</item>
+    <item name="is_friend_two_pane" type="bool">true</item>
+</resources>

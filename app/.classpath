@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Android API 21 Platform"/>
+	<classpathentry kind="src" path="build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="build/generated/source/aidl/debug"/>
+	<classpathentry kind="src" path="build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="build/generated/source/rs/debug"/>
+	<classpathentry kind="src" path="build/generated/res/rs/debug"/>
+	<classpathentry kind="src" path="build/generated/res/generated/debug"/>
+	<classpathentry kind="src" path="build/generated/source/r/test/debug"/>
+	<classpathentry kind="src" path="build/generated/source/aidl/test/debug"/>
+	<classpathentry kind="src" path="build/generated/source/buildConfig/test/debug"/>
+	<classpathentry kind="src" path="build/generated/source/rs/test/debug"/>
+	<classpathentry kind="src" path="build/generated/res/rs/test/debug"/>
+	<classpathentry kind="src" path="build/generated/res/generated/test/debug"/>
+	<classpathentry kind="src" path="src/debug/res"/>
+	<classpathentry kind="src" path="src/debug/resources"/>
+	<classpathentry kind="src" path="src/debug/assets"/>
+	<classpathentry kind="src" path="src/debug/aidl"/>
+	<classpathentry kind="src" path="src/debug/java"/>
+	<classpathentry kind="src" path="src/debug/jni"/>
+	<classpathentry kind="src" path="src/debug/rs"/>
+	<classpathentry kind="src" path="src/main/res"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/assets"/>
+	<classpathentry kind="src" path="src/main/aidl"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/jni"/>
+	<classpathentry kind="src" path="src/main/rs"/>
+	<classpathentry kind="src" path="src/androidTest/res"/>
+	<classpathentry kind="src" path="src/androidTest/resources"/>
+	<classpathentry kind="src" path="src/androidTest/assets"/>
+	<classpathentry kind="src" path="src/androidTest/aidl"/>
+	<classpathentry kind="src" path="src/androidTest/java"/>
+	<classpathentry kind="src" path="src/androidTest/jni"/>
+	<classpathentry kind="src" path="src/androidTest/rs"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/appcompat-v7-21.0.3"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/gson-2.3.1"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/support-v4-21.0.3"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/support-annotations-21.0.3"/>
+	<classpathentry kind="output" path="build/intermediates/classes/debug"/>
+</classpath>
